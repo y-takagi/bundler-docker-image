@@ -1,6 +1,4 @@
-FROM ruby:2.3.1-alpine
-
-RUN apk add --no-cache build-base
+FROM ruby:latest
 
 COPY bundle_config /usr/local/bundle/config
 
