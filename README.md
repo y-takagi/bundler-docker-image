@@ -12,6 +12,8 @@ This container image is used to create and develop ruby programs.
     touch Gemfile
     ```
 
+    Edit Gemfile to be below.
+
     ``` Gemfile
     source 'https://rubygems.org'
     gem 'rails'
