@@ -35,4 +35,5 @@ docker run -v $(pwd):/workdir ytakagi/bundler bundle exec rails server
 ```
 
 Now you can edit Rails program (also gem) from host machine, while running Rails server at container.
+
 Sweet!!
