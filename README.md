@@ -9,7 +9,7 @@ You can just use this image, but if you are using gems that depends on some pack
 you have to create another Dockerfile. Below is just a sample.
 
 ```
-FROM ytakagi/bundler:latest
+FROM ytakagi/bundler:2.3-slim
 
 RUN apt-get update \
  && apt-get install -y --no-install-recommends \

@@ -1,4 +1,4 @@
-FROM ruby:latest
+FROM ruby:2.3-slim
 
 COPY bundle_config /usr/local/bundle/config
 
