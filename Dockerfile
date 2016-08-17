@@ -1,4 +1,4 @@
-FROM ruby:latest
+FROM ruby:2.3-alpine
 
 COPY bundle_config /usr/local/bundle/config
 

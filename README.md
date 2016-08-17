@@ -9,15 +9,11 @@ You can just use this image, but if you are using gems that depends on some pack
 you have to create another Dockerfile. Below is just a sample.
 
 ```
-FROM ytakagi/bundler:latest
+FROM ytakagi/bundler:2.3-alpine
 
-RUN apt-get update \
- && apt-get install -y --no-install-recommends \
-                    build-essential \
-                    libpq-dev \
-                    nodejs \
- && rm -rf /var/lib/apt/lists/* \
- && ln -s /usr/bin/nodejs /usr/bin/node
+RUN apk add --no-cache build-base \
+                       postgresql-dev \
+                       nodejs
 ```
 
 ## Example
