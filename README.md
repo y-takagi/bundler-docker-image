@@ -4,6 +4,14 @@ It will install gems under project directory, so you can edit gems outside of co
 
 This image depends on [official ruby image](https://hub.docker.com/_/ruby/), so image tag also correspond to it.
 
+## Supported tags and respective Dockerfile links
+
+| tag        | link                                                                                      |
+|:-----------|:------------------------------------------------------------------------------------------|
+| latest     | [master/Dockerfile](https://github.com/y-takagi/bundler-docker-image/tree/master)         |
+| 2.3-slim   | [2.3-slim/Dockerfile](https://github.com/y-takagi/bundler-docker-image/tree/2.3-slim)     |
+| 2.3-alpine | [2.3-alpine/Dockerfile](https://github.com/y-takagi/bundler-docker-image/tree/2.3-alpine) |
+
 ## Setup
 You can just use this image, but if you are using gems that depends on some packages,
 you have to create another Dockerfile. Below is just a sample.
