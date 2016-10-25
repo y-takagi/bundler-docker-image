@@ -1,4 +1,4 @@
-# Bundler docker image
+# Ruby docker image
 This docker image is used to create and develop ruby programs.
 It will install gems under project directory, so you can edit gems outside of container.
 
@@ -9,7 +9,7 @@ You can just use this image, but if you are using gems that depends on some pack
 you have to create another Dockerfile. Below is just a sample.
 
 ```
-FROM ytakagi/bundler:2.3-alpine
+FROM ytakagi/ruby:2.3-alpine
 
 RUN apk add --no-cache build-base \
                        postgresql-dev \
