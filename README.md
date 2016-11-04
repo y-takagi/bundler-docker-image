@@ -6,8 +6,8 @@ This image depends on [official ruby image](https://hub.docker.com/_/ruby/), so 
 
 ## Supported tags and respective Dockerfile links
 
-| tag        | link                                                                                      |
-|:-----------|:------------------------------------------------------------------------------------------|
+| tag        | link                                                                                   |
+|:-----------|:---------------------------------------------------------------------------------------|
 | latest     | [master/Dockerfile](https://github.com/y-takagi/ruby-docker-image/tree/master)         |
 | 2.3-slim   | [2.3-slim/Dockerfile](https://github.com/y-takagi/ruby-docker-image/tree/2.3-slim)     |
 | 2.3-alpine | [2.3-alpine/Dockerfile](https://github.com/y-takagi/ruby-docker-image/tree/2.3-alpine) |
